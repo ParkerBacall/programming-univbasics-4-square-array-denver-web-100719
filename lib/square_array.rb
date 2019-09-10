@@ -3,8 +3,9 @@ def square_array(array)
 
   while array[count] do
     array[count] = array[count] ** 2
-    puts array[count]
+    p array[count]
 
     count = count + 1
+
   end
 end
